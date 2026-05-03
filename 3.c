@@ -1,6 +1,12 @@
-#include<stdio.h>
+// Write a program to print the sum, difference, multiplication, division of two numbers.
+#include <stdio.h>
 
-int main(){
-    printf("Hrithika Datta3.");
+int main()
+{
+    int a = 10, b = 20;
+    printf("%d+%d=%d\n", a, b, a + b);
+    printf("%d-%d=%d\n", a, b, a - b);
+    printf("%d*%d=%d\n", a, b, a * b);
+    printf("%d/%d=%d\n", a, b, a / b); // for mac / i am using instead of //
     return 0;
 }
