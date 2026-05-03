@@ -1,0 +1,53 @@
+# Ignore object files, libraries, and executables
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.lai
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.so
+*.dylib
+
+# Ignore dependency files and build artifacts
+*.d
+*.su
+*.idb
+*.pdb
+
+# Ignore editor/project files
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore build directories
+build/
+bin/
+obj/
+
+# Ignore coverage and report files
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# Ignore core dumps
+core
+core.*
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore generated files from autotools
+autom4te.cache/
+config.log
+config.status
+Makefile.in
+aclocal.m4
